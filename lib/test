@@ -1,0 +1,139 @@
+ static const List<Product> products = [
+    Product(
+      id: '1',
+      name: 'Shirt-man',
+      category: 'Clothes',
+      image: 'assets/images/man2.jpg',
+      description:
+          'Slim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight & soft fabric for breathable and comfortable wearing. And Solid stitched shirts with round neck made for durability and a great fit for casual fashion wear and diehard baseball fans. The Henley style round neckline includes a three-button placket',
+      price: 50,
+    ),
+    Product(
+      id: '2',
+      name: 'Mens Cotton Jacket',
+      category: 'clothes',
+      image: 'assets/images/man1.jpg',
+      description: 'Slim-fitting style',
+      price: 78,
+    ),
+    Product(
+      id: '3',
+      name: 'Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops',
+      category: 'accessories',
+      image: 'assets/images/accs10.jpg',
+      description:
+          "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+      price: 100.25,
+    ),
+    Product(
+      id: '4',
+      name: 'Jacket',
+      category: 'Clothes',
+      image: 'assets/images/man3.jpg',
+      description:
+          'The color could be slightly different between on the screen and in practice. / Please note that body builds vary by person, therefore, detailed size information should be reviewed below on the product description',
+      price: 100,
+    ),
+    Product(
+      id: '5',
+      name: 'John Hardy ',
+      category: 'accessories',
+      image: 'assets/images/accs8.jpg',
+      description: 'From our Legends Collection',
+      price: 59.99,
+    ),
+    Product(
+      id: '6',
+      name: 'Solid Gold Petite Micropave',
+      category: 'accessories',
+      image: 'assets/images/accs5.jpg',
+      description: 'Satisfaction Guaranteed',
+      price: 299.99,
+    ),
+    Product(
+      id: '7',
+      name: 'Pierced Owl Rose Gold Plated Stainless Steel Double',
+      category: 'accessories',
+      image: 'assets/images/accs3.jpg',
+      description: 'Rose Gold Plated Double Flared Tunnel Plug Earrings',
+      price: 429.99,
+    ),
+    Product(
+      id: '8',
+      name: 'White Gold Plated Princess',
+      category: 'accessories',
+      image: 'assets/images/accs7.jpg',
+      description: 'Classic Created Wedding Engagement',
+      price: 499.99,
+    ),
+    Product(
+      id: '9',
+      name: 'WD 2TB Elements Portable External Hard Drive - USB 3.0',
+      category: 'accessories',
+      image: 'assets/images/accs1.jpg',
+      description: 'USB 3.0 and USB 2.0 Compatibility Fast data transfers',
+      price: 499.99,
+    ),
+    Product(
+      id: '10',
+      name: 'WD 2TB Elements Portable External Hard Drive - USB 3.0',
+      category: 'accessories',
+      image: 'assets/images/accs4.jpg',
+      description: 'Easy upgrade for faster boot up, shutdown',
+      price: 419.99,
+    ),
+    Product(
+      id: '11',
+      name:
+          'Silicon Power 256GB SSD 3D NAND A55 SLC Cache Performance Boost SATA III 2.5',
+      category: 'accessories',
+      image: 'assets/images/accs6.jpg',
+      description: '3D NAND flash are applied to deliver high transfer',
+      price: 299.99,
+    ),
+    Product(
+      id: '12',
+      name: 'Acer SB220Q bi 21.5 inches Full HD (1920 x 1080) IPS Ultra-Thin',
+      category: 'accessories',
+      image: 'assets/images/accs9.jpg',
+      description: '21. 5 inches Full HD (1920 x 1080) widescreen IPS display',
+      price: 899.99,
+    ),
+    Product(
+      id: '13',
+      name:
+          'Samsung 49-Inch CHG90 144Hz Curved Gaming Monitor (LC49HG90DMNXZA) – Super Ultrawide Screen QLED',
+      category: 'accessories',
+      image: 'assets/images/accs11.jpg',
+      description:
+          '49 INCH SUPER ULTRAWIDE 32:9 CURVED GAMING MONITOR with dual 27 inch',
+      price: 999.99,
+    ),
+    Product(
+      id: '14',
+      name: 'BIYLACLESEN Womens 3-in-1 Snowboard Jacket Winter Coats',
+      category: 'clothes',
+      image: 'assets/images/woman6.jpg',
+      description: 'Note:The Jackets is US standard size',
+      price: 199.99,
+    ),
+    Product(
+      id: '15',
+      name:
+          'Lock and Love Womens Removable Hooded Faux Leather Moto Biker Jacket',
+      category: 'clothes',
+      image: 'assets/images/woman2.jpg',
+      description:
+          '100% POLYURETHANE(shell) 100% POLYESTER(lining) 75% POLYESTER 25% COTTON (SWEATER)',
+      price: 99.99,
+    ),
+    Product(
+      id: '17',
+      name: 'Rain Jacket Women Windbreaker Striped Climbing Raincoats',
+      category: 'clothes',
+      image: 'assets/images/woman3.jpg',
+      description:
+          'Lightweight perfet for trip or casual wear---Long sleeve with hooded',
+      price: 999.99,
+    ),
+  ];
