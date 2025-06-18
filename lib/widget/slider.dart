@@ -52,18 +52,17 @@ class _AutoSliderState extends State<AutoSlider> {
             height: 180,
             child: PageView(
               controller: _controller,
-              children: widget.imagePaths.map(
-                (path) => Padding(
-                  padding: const EdgeInsets.symmetric(horizontal: 8),
-                  child: ClipRRect(
-                    borderRadius: BorderRadius.circular(16),
-                    child: Image.asset(
-                      path,
-                      fit: BoxFit.cover,
+              children: widget.imagePaths
+                  .map(
+                    (path) => Padding(
+                      padding: const EdgeInsets.symmetric(horizontal: 8),
+                      child: ClipRRect(
+                        borderRadius: BorderRadius.circular(16),
+                        child: Image.asset(path, fit: BoxFit.cover),
+                      ),
                     ),
-                  ),
-                ),
-              ).toList(),
+                  )
+                  .toList(),
             ),
           ),
           const SizedBox(height: 10),

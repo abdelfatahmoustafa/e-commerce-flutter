@@ -192,7 +192,7 @@ class CategoryProductsScreen extends StatelessWidget {
         padding: const EdgeInsets.all(16),
         gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
           crossAxisCount: 2,
-          childAspectRatio: 0.7,
+          childAspectRatio: 0.41,
           crossAxisSpacing: 10,
           mainAxisSpacing: 10,
         ),
@@ -247,13 +247,21 @@ class ProductCard extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        Expanded(
-          child: Image.asset(
-            product.image,
-            fit: BoxFit.cover,
-            width: double.infinity,
+        ClipRRect(
+          borderRadius: const BorderRadius.only(
+            topLeft: Radius.circular(16),
+            topRight: Radius.circular(16),
+          ),
+          child: AspectRatio(
+            aspectRatio: 1,
+            child: Image.asset(
+              product.image,
+              fit: BoxFit.cover,
+              width: double.infinity,
+            ),
           ),
         ),
+
         Padding(
           padding: const EdgeInsets.symmetric(vertical: 6, horizontal: 8),
           child: Text(
